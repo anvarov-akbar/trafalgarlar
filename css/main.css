@@ -1,0 +1,391 @@
+
+@font-face {
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 300;
+     src:  url('../fonts/mulish-v5-latin-300.woff2') format('woff2'), 
+     url('../fonts/mulish-v5-latin-300.woff') format('woff'); 
+}
+
+@font-face {
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 400;
+     src:  url('../fonts/mulish-v5-latin-regular.woff2') format('woff2'), 
+     url('../fonts/mulish-v5-latin-regular.woff') format('woff');}
+     
+     @font-face {
+          font-family: 'Mulish';
+          font-style: normal;
+          font-weight: 700;
+          src: url('../fonts/mulish-v5-latin-700.woff2') format('woff2'),
+          url('../fonts/mulish-v5-latin-700.woff') format('woff'); }
+          
+          *{
+               box-sizing: border-box;
+          }
+          body{
+               margin: 0;
+               padding: 0;
+               font-family: "Mulish","arial",sans-serif;
+               
+               
+               
+          }
+          .header{
+               margin-top: 140px;
+               
+          }
+          .container{
+               width: 1255px;
+               margin: 0 auto;
+               padding: 0 20px;
+               
+          }
+          .header-item{
+               display: flex;
+               justify-content: center;
+               
+               
+          }
+          .header-logo{
+               margin-right: 545px;
+               margin-bottom: 190px;
+               
+          }
+          .header-img{
+               justify-content: center;
+          }
+          .nav-section{
+               display: flex;
+               
+               font-weight: 400px;
+               list-style-type: none;
+          }
+          .nav-list{
+               text-decoration: none;
+               list-style-type: none;
+               display: flex;
+               list-style-type: none;
+               text-decoration: none;
+               margin-left: 20px;
+               margin-bottom: 80px;
+               font-family: "Mulish",Arial,sans-serif;
+               font-style: normal;
+               font-weight: normal;
+               font-size: 18px;
+               line-height: 23px;
+               color: #1F1534;
+               
+               opacity: 0.5;
+          }
+          .nav-list-active{
+               display: flex;
+               list-style-type: none;
+               text-decoration: none;
+               margin-left: 20px;
+               font-family: "Mulish",Arial,sans-serif;
+               font-style: normal;
+               font-size: 18px;
+               color: #000000
+               opacity: 1;
+          }
+          .header-bottom-heding{
+               display: flex;
+               justify-content:center;
+          }
+          .heading-item{
+               justify-content: center;
+               width: 445px;
+               margin-right: 125px;
+          }
+          .heding-bottom{
+               font-size: 40px;
+               margin: 0;
+               margin-bottom: 25px;
+               color: #000000;
+          }
+          .heding-paragrapht{
+               font-weight: 300;
+               font-size: 21px;
+               margin: 0;
+               margin-bottom: 45px;
+               color: #7D7987
+               ;
+          }
+          .heding-link{
+               text-decoration: none;
+               list-style-type: none;
+               width: 200px;
+               height: 56px;
+               color: #ffffff;
+               padding: 20px 40px;
+               background: #458FF6;
+               border-radius: 55px;
+          }
+          .heading-img{
+               justify-content: center;
+               text-decoration: none;
+               margin-bottom: 100px;
+          }
+          .servises-heding{
+               width: 220px;
+               display: block;
+               margin: 0 auto;
+               margin-bottom: 25px;
+               font-size: 36px;
+          }
+          .services-text{
+               tab-size: 36px;
+               color: #000000;
+          }
+          .services-line{
+               display: block ;
+               width: 56px;
+               height: 2px;
+               border-radius: 5px;
+               background: #000000;
+               margin: 0 auto;
+               margin-bottom: 35px;
+          }
+          .services-paragrapht{
+               width: 955px;
+               font-weight: 300;
+               text-align: center;
+               margin: 0 auto;
+               margin-bottom: 80px;
+               font-size: 18px;
+               color: #7D7987;
+          }
+          .service-list{
+               display: flex;
+               justify-content: space-between;
+               flex-wrap: wrap;
+               margin: -40px;
+               padding: 0;
+               list-style-type: none;
+          }
+          .servic{
+               width: 350px;
+               margin: 40px;
+               padding: 45px;
+               border-radius: 20px;
+          }
+          .servic-text{
+               font-weight: 700;
+               font-size: 24px;
+               color: #000000;
+          }
+          .servic-paragrapht{
+               font-style: normal;
+               font-weight: 300;
+               font-size: 16px;
+               color: #7D7987;
+          }
+          .link-services{
+               display: flex;
+               margin: 0 auto;
+               justify-content: center;
+               text-align: center;
+               text-decoration: none;
+               list-style-type: none;
+               width: 200px;
+               height: 65px;
+               border: 1.4px solid #458FF6;
+               color: #458FF6;
+               padding: 20px 20px;
+               border-radius: 55px;
+               margin-bottom: 220px;
+          }
+          
+          .healthcare-item{
+               display: flex;
+               justify-content: center;
+               margin-bottom: 225px;
+          }
+          .healthcare-img{
+               text-decoration: none;
+               margin: 0;
+               margin-right:137px ;
+          }
+          
+          .healthcare-text{
+               width: 486px;
+          }
+          
+          .healthcare-heading{
+               font-size: 36px;
+               font-weight: bold;
+               color: #000000;
+               margin: 0;
+               margin-bottom: 26px;
+          }
+          .healthcare-line{
+               display: block;
+               width: 56px;
+               height: 2px;
+               background: #000000;
+               border-radius: 10px;
+               margin: 0;
+               margin-bottom: 30px;
+               
+          }
+          .healthcare-paragrapht{
+               font-style: normal;
+               ont-weight: 300;
+               color: #7D7987;
+               text-decoration: none;
+               font-size: 18px;
+               line-height: 30px;
+               margin: 0;
+               margin-bottom: 37px;
+          }
+          .healthcare-link{
+               text-decoration: none;
+               list-style-type: none;
+               width: 200px;
+               height: 56px;
+               color:#458FF6;;
+               padding: 20px 40px;
+               background: #ffffff;
+               border-radius: 55px;
+               border: 1.4px solid #458FF6 ;
+          }
+          
+          .download-apps-info{
+               display: flex;
+          }
+          
+          
+          .download-mobile-apps{
+               width: 420px;
+               margin: 0;
+               margin-right: 70;
+               margin-bottom: 274;
+          }
+          .mobile-apps-heading{
+               margin: 0;
+               margin-bottom: 30px;
+               width: 254px;
+               font-family: Mulish;
+               font-style: normal;
+               font-weight: bold;
+               font-size: 36px;
+               line-height: 48px;
+               color: #000000;
+          }
+          .apps-line{
+               display: block;
+               width: 56px;
+               height: 2px;
+               background: #000000;
+               border-radius: 10px;
+               margin: 0;
+               margin-bottom: 30px;
+          }
+          .mobile-apps-paragrapht{
+               margin: 0;
+               margin-bottom: 40px;
+               width: 420px;
+               font-family: Mulish;
+               font-style: normal;
+               font-weight: 300;
+               font-size: 18px;
+               line-height: 30px;
+               color: #7D7987;
+          }
+          .download-link{
+               text-decoration: none;
+               list-style-type: none;
+               width: 200px;
+               height: 56px;
+               color:#458FF6;;
+               padding: 20px 40px;
+               background: #ffffff;
+               border-radius: 55px;
+               border: 1.4px solid #458FF6 ;
+          }
+          .download-mobile-img{
+               margin: 0;
+               margin-bottom: 250px;
+          }
+          .blockquote{
+               padding: 60px 80px;
+               width: 1120px;
+               height: 425px;
+               background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+               border-radius: 24px;
+               color: #ffffff;
+               margin-bottom: 40px;
+          }
+          .blockquote-info{
+               display: flex;
+               margin: 0 auto;
+               margin-bottom: 25px;
+               width: 522px;
+               font-family: Mulish;
+               font-style: normal;
+               font-weight: bold;
+               font-size: 36px;
+               line-height: 48px;
+          }
+          .blockquote-line{
+               display: block;
+               width: 56px;
+               height: 2px;
+               background: #ffffff;
+               border-radius: 10px;
+               margin: 0 auto;
+               margin-bottom: 66px;
+          }
+          .person-info{
+               display: flex;
+               justify-content: center;
+          }
+          .person{
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center ;
+          }
+          .person-img{
+               background: #ffffff;
+               border-radius: 50%;
+          }
+          .hero{
+               width: 184px;
+               height: 40px;
+               padding: 5px;
+               margin: 0;
+               margin-left: 30px;
+               
+               
+          }
+          .hero-info{
+               width: 118;
+               height: 40px;
+               margin: 0;
+               padding: 20px;
+               margin-left: 50px;
+              
+          }
+          
+          
+          
+          
+          
+          
+          
+          
+          .hero-text{
+
+               margin: 0;
+               width: 420px;
+               font-family: Mulish;
+               font-style: normal;
+               font-weight: normal;
+               font-size: 19px;
+               line-height: 30px;
+               color: rgba(255, 255, 255, 0.9);
+               
+               mix-blend-mode: normal;
+          }
