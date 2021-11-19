@@ -76,7 +76,6 @@
                font-size: 18px;
                line-height: 23px;
                color: #1F1534;
-               
                opacity: 0.5;
           }
           .nav-list-active{
@@ -88,7 +87,7 @@
                font-style: normal;
                font-size: 18px;
                color: #000000
-               opacity: 1;
+               
           }
           .header-bottom-heding{
                display: flex;
@@ -232,7 +231,7 @@
           }
           .healthcare-paragrapht{
                font-style: normal;
-               ont-weight: 300;
+               font-weight: 300;
                color: #7D7987;
                text-decoration: none;
                font-size: 18px;
@@ -338,7 +337,7 @@
                margin: 0 auto;
                margin-bottom: 66px;
           }
-          .person-info{
+          .person-hero{
                display: flex;
                justify-content: center;
           }
@@ -354,9 +353,11 @@
           .hero{
                width: 184px;
                height: 40px;
-               padding: 5px;
                margin: 0;
-               margin-left: 30px;
+               margin-left: 29px;
+               padding: 16px 0;
+              
+               
                
                
           }
@@ -364,20 +365,13 @@
                width: 118;
                height: 40px;
                margin: 0;
-               padding: 20px;
-               margin-left: 50px;
-              
-          }
-          
-          
-          
-          
-          
-          
-          
-          
+               margin-left: 29px;
+               padding: 16px 0;
+               
+               
+          }        
           .hero-text{
-
+               
                margin: 0;
                width: 420px;
                font-family: Mulish;
@@ -386,6 +380,8 @@
                font-size: 19px;
                line-height: 30px;
                color: rgba(255, 255, 255, 0.9);
-               
-               mix-blend-mode: normal;
-          }
+               mix-blend-mode: normal;} 
+               .person-info{
+                   display: flex;
+                   flex-direction: column;
+               }
